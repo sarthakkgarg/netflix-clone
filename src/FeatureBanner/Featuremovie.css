@@ -1,0 +1,52 @@
+.featured{
+    height: 100vh;
+}
+.featured-vertical {
+    width: inherit;
+    height: inherit;
+    background :linear-gradient(to top, #111 10%, transparent 90%);
+}
+.featured-hori{
+    width: inherit;
+    height: inherit;
+    background :linear-gradient(to right, #111 10%, transparent 90%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    padding-bottom: 150px;
+}
+.featured-name{
+    font-size: 60px;
+    font-weight: bold;
+}
+.featured-language{
+font-size: 30px;
+}
+.featured-vote{
+    font-size: 20px;
+    color: #46d469;
+    display: inline-block;
+}
+.featured-watchbtn,.featured-watchlist{
+    display: inline-block;
+    font-size: 20px;
+    padding: 15px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 10px;
+    opacity: 1;
+    transition: all ease 0.2s;
+    margin-top: 30px;
+}
+.featured-watchbtn{
+    background-color: #FFF;
+    color: #000
+}
+.featured-watchlist{
+    background-color: #333;
+    color: #FFF;
+}
+.featured-watchbtn:hover,.featured-watchlist:hover{
+    opacity: 0.7;
+}
